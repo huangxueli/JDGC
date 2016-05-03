@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/table1234_0"
+            style="@style/table_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="5"
+            android:background="@drawable/table1234_0"
+            android:text="温州市" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/table1_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_light"
+                android:text="@string/jy" />
+
+            <TextView
+                android:id="@+id/table2_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_light"
+                android:text="@string/ydgt" />
+
+            <TextView
+                android:id="@+id/table3_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_light"
+                android:text="@string/zagt" />
+
+            <TextView
+                android:id="@+id/table4_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_light"
+                android:text="@string/zj" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/table1_2"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_num"
+                android:text="40" />
+
+            <TextView
+                android:id="@+id/table2_2"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="40" />
+
+            <TextView
+                android:id="@+id/table3_2"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="40" />
+
+            <TextView
+                android:id="@+id/table4_2"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="120" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/table1_3"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_num"
+                android:text="3O" />
+
+            <TextView
+                android:id="@+id/table2_3"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="30" />
+
+            <TextView
+                android:id="@+id/table3_3"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="30" />
+
+            <TextView
+                android:id="@+id/table4_3"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/table1_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_num"
+                android:text="1O" />
+
+            <TextView
+                android:id="@+id/table2_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/table3_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/table4_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num"
+                android:text="30" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

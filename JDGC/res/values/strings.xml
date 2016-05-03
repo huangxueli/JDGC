@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">警灯在线</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- main fragment -->
+    <string name="map_mode_vector">矢量地图</string>
+    <string name="map_mode_2.5">2.5维地图</string>
+    <string name="map_mode_raster">影像地图</string>
+
+    <!-- menu -->
+    <string name="unlogin">未登录</string>
+    <string name="name">姓名</string>
+    <string name="clear_cache">清空缓存</string>
+
+    <!-- search fragment -->
+    <string name="total">共</string>
+    <string name="page">页</string>
+    <string name="current_page">当前页:</string>
+    <string name="match_result_count">匹配结果个数:</string>
+    <string name="zero">0</string>
+    <string name="search_fragment_hint">请输入关键字</string>
+    <string name="gotohere">到这里去</string>
+    <string name="showonmap">在地图上显示</string>
+
+    <!-- downmap fragment -->
+    <string name="download">下载</string>
+
+    <!-- ftp -->
+    <string name="ftp_user">账号&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="default_user">anonymous</string>
+    <string name="ftp_password">密码&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="default_password">ftp4j</string>
+    <string name="login">登录</string>
+    <string name="cancel">取消</string>
+
+    <!-- HorizontalProgressDialog -->
+    <string name="hide">隐藏</string>
+
+    <!-- dialog_check -->
+    <string name="remark">备注</string>
+    <string name="descripbion">巡检记录说明</string>
+    <string name="save">保存</string>
+
+    <!-- dialog_add_poi -->
+    <string name="ok">确定</string>
+    <string name="name_prompt">名称</string>
+    <string name="type_prompt">部件类型</string>
+
+    <string-array name="city">
+        <item> </item>
+        <item>温州市公安局</item>
+    </string-array>
+    
+    <string-array name="xzqy">
+        <item> </item>
+        <item>鹿城区</item>
+        <item>龙湾区</item>
+        <item>瓯海区</item>
+        <item>洞头区</item>
+        <item>开发区</item>
+        <item>永嘉县</item>
+        <item>乐清市</item>
+        <item>瑞安市</item>
+        <item>平阳县</item>
+        <item>苍南县</item>
+        <item>文成县</item>
+        <item>泰顺县</item>
+    </string-array>
+    
+    <string-array name="empty">
+        <item></item>
+    </string-array>
+
+    <!-- 搜索视图 -->
+    <string name="search_result">搜索结果</string>
+    <string name="result_num">共有0条</string>
+    <string name="gt_name">移动岗亭</string>
+    <string name="prompt_level2">分局选择</string>
+    <string name="prompt_level3">派出所选择</string>
+    <!-- 岗亭信息视图 -->
+    <string name="title">警灯信息</string>
+    <string name="gtlx">岗亭类型</string>
+    <string name="gtmc">岗亭名称</string>
+    <string name="gtbh">岗亭编号</string>
+    <string name="zqmj">执勤民警</string>
+    <string name="xzqy">行政区域</string>
+    <string name="jgmc">机构名称</string>
+    <string name="gtdz">岗亭地址</string>
+    <string name="jdbh">警灯编号</string>
+    <string name="lxr">联系人</string>
+    <string name="lxdh">联系电话</string>
+    <string name="bz">备注</string>
+    <!-- 民警信息视图 -->
+    <string name="mjxm">民警姓名</string>
+    <string name="mjjh">民警警号</string>
+    <string name="sfzh">身份证号</string>
+    <string name="sjhm">手机号码</string>
+    <string name="jgbm">机构编码</string>
+    <!-- 岗亭信息弹出框 -->
+    <string name="gtmc_">岗亭名称：</string>
+    <string name="zqmj_">执勤民警：</string>
+    <string name="sfzx_">是否在线：</string>
+    <string name="dqwz_">当前位置：</string>
+    <string name="lxdh_">联系电话：</string>
+    <!-- 民警信息弹出框 -->
+    <string name="mjxm_">民警名称：</string>
+    <string name="mjjh_">民警警号：</string>
+    <string name="sjhm_">手机号码：</string>
+    <string name="jgmc_">机构名称：</string>
+    <string name="sfzh_">身份证号：</string>
+    <!-- 统计视图列表适配器 -->
+    <string name="jy">警员</string>
+    <string name="ydgt">移动岗亭</string>
+    <string name="zagt">治安岗亭</string>
+    <string name="mjgt">民警岗亭</string>
+    <string name="lfgt">联防岗亭</string>
+    <string name="zj">总计</string>
+    <string name="zxgt">在线岗亭</string>
+    <!-- 数据统计视图 -->
+    <string name="title_statistics">警灯列表</string>
+</resources>

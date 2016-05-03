@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/MyRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/stationmoveableBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_bottombar_normalstation"
+            android:checked="false"
+            android:button="@color/transparent" />
+
+        <CheckBox
+            android:id="@+id/stationBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:background="@drawable/button_selector_bottombar_policestation"
+            android:button="@color/transparent" />
+
+        <CheckBox
+            android:id="@+id/measureDistanceBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@color/transparent" 
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/policemanBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:background="@drawable/button_selector_bottombar_police"
+            android:button="@color/transparent" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/MessageArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bottombar_prompt"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:padding="2dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/BottomBarPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="提示框"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

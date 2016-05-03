@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/table1234_0"
+            style="@style/table_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="5"
+            android:background="@drawable/table1234_0_new"
+            android:text="温州市" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/table1_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_light_new"
+                android:text="@string/jy" />
+
+            <TextView
+                android:id="@+id/table2_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_light_new"
+                android:text="@string/lfgt" />
+
+            <TextView
+                android:id="@+id/table3_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_light_new"
+                android:text="@string/mjgt" />
+
+            <TextView
+                android:id="@+id/table4_1"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_light_new"
+                android:text="@string/zxgt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/table1_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_num_new"
+                android:text="1O" />
+
+            <TextView
+                android:id="@+id/table2_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num_new"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/table3_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num_new"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/table4_4"
+                style="@style/table_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:background="@drawable/table_num_new"
+                android:text="30" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
